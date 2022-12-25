@@ -5,13 +5,14 @@
 # Defining function
 def increasing_numbers(n, m):
     array = []
-    for i in range(n, m):
+    for i in range(n, m + 1):
         count = 0
         for k in range(n, i + 1):
-            if k % i == 0:
+            if i % k == 0:
                 count += 1
-                if count < 3:
-                    array.append(i)
+        if count == 1:
+            array.append(i)
+
     return array
 
 
