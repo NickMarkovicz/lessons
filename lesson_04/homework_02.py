@@ -4,7 +4,7 @@
 
 # Defining function
 def is_palindrome(s):
-    return 'Inputted word is a palindrome.' if s == s[::-1] else 'Inputted word is not a palindrome.'
+    return 'Inputted word is a palindrome.' if s.lower() == s.lower()[::-1] else 'Inputted word is not a palindrome.'
 
 
 # Asking for a correct input
