@@ -9,8 +9,9 @@ from random import randrange
 def printing_random_numbers():
     while True:
         randon_number = randrange(1, 11)
-        print(f"Number: {randon_number}")
+        print(f"Input a number: {randon_number}")
         if randon_number == 7:
+            print(f"Number 7 was randomized, aborting printing.")
             break
 
 
