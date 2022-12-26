@@ -7,7 +7,7 @@ def increasing_numbers(n, m):
     array = []
     for i in range(n, m + 1):
         count = 0
-        for k in range(n, i + 1):
+        for k in range(2, i + 1):
             if i % k == 0:
                 count += 1
         if count == 1:
