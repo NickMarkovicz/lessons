@@ -9,10 +9,10 @@ def is_palindrome(s):
 
 # Asking for a correct input
 s = input(f"Input a word: ")
-if s.isalpha() is (not True):
+if not s.isalpha():
     while True:
         s = input(f"Wrong input! Input a word: ")
-        if s.isalpha() is (not True):
+        if not s.isalpha():
             continue
         else:
             break
