@@ -17,4 +17,5 @@ second_horse = [2, 1]
 
 
 # Calling out function for print
-print(chess(first_horse, second_horse))
+if __name__ == "__main__":
+    print(chess(first_horse, second_horse))

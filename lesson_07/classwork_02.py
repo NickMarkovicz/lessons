@@ -8,10 +8,10 @@ from datetime import datetime
 
 
 # Defining decorator
-def decorator(func):
+def decorator(func):  # Decorator function with
     def exec_time():
         start_time = datetime.now()
-        func()
+        func()  # Calling outer function
         end_time = datetime.now()
         print(end_time - start_time)
     return exec_time

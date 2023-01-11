@@ -19,4 +19,5 @@ cities = {
 
 
 # Calling out function for print
-print(f"Country your city located in: {find_country('Toronto')}")
+if __name__ == "__main__":
+    print(f"Country your city located in: {find_country('Toronto')}")

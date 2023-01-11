@@ -24,5 +24,6 @@ def sales():
 
 
 # Calling out function for print
-sales()
+if __name__ == "__main__":
+    sales()
 
